@@ -1,0 +1,3 @@
+nbKids=300;
+seats={40,30};
+costBus=[500,400]; 

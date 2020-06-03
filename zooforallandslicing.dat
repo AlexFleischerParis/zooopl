@@ -1,0 +1,5 @@
+nbKids=300;
+buses={<40,500,"diesel">,<30,400,"EV">,<50,620,"diesel">};
+
+nbMaxDieselBus=3;
+

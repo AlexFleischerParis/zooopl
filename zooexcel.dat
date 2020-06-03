@@ -1,0 +1,9 @@
+
+
+    SheetConnection s("zoo.xlsx");
+
+    params from SheetRead(s,"params!A2");
+    buses from SheetRead(s,"buses!A2:B3");
+
+    results to SheetWrite(s,"buses!E2:F3");
+
