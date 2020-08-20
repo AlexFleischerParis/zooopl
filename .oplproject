@@ -163,6 +163,12 @@
 			<ref name="zooseveralcpo.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooexcelnamedrange" category="opl">
+			<ref name="zooexcelnamedrange.dat" type="data">
+			</ref>
+			<ref name="zooexcel.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>

@@ -15,8 +15,8 @@ Let me share a tiny example:
     dvar int+ nbBus40;
     dvar int+ nbBus30;
      
-    minimize
-     costBus40*nbBus40  +nbBus30*costBus30;
+    //minimize
+     //costBus40*nbBus40  +nbBus30*costBus30;
      
     subject to
     {
@@ -29,7 +29,7 @@ Let me share a tiny example:
     }
 
      main {
-    cplex.solnpoolintensity=2;
+    cplex.solnpoolintensity=4;
 
         thisOplModel.generate();
         cplex.solve();

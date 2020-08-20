@@ -54,3 +54,22 @@ In order to do that we may use SheetRead and SheetWrite:
 
     {result} results={<b.nbSeats,nbBus[b]> | b in buses};
 
+/*
+
+and in the .dat we have
+
+SheetConnection s("zoo.xlsx");
+
+params from SheetRead(s,"params!A2");
+buses from SheetRead(s,"buses!A2:B3");
+results to SheetWrite(s,"buses!E2:F3");
+
+or if we prefer to rely on named range
+
+SheetConnection s("zoonamedrange.xlsx");
+
+params from SheetRead(s,"nbkids");
+buses from SheetRead(s,"buses");
+results to SheetWrite(s,"result");
+
+*/

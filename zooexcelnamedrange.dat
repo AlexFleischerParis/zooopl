@@ -1,0 +1,5 @@
+SheetConnection s("zoonamedrange.xlsx");
+
+params from SheetRead(s,"nbkids");
+buses from SheetRead(s,"buses");
+results to SheetWrite(s,"result");
