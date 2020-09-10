@@ -169,6 +169,10 @@
 			<ref name="zooexcel.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoocounttrueconstraints" category="opl">
+			<ref name="zoocounttrueconstraints.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
