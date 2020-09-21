@@ -173,6 +173,10 @@
 			<ref name="zoocounttrueconstraints.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoogetcplexinfo" category="opl">
+			<ref name="zoogetcplexinfo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
