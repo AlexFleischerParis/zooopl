@@ -177,6 +177,22 @@
 			<ref name="zoogetcplexinfo.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoofixedstart" category="opl">
+			<ref name="zoofixedstart.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoofixedstartcpo" category="opl">
+			<ref name="zoofixedstartcpo.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoomodulo" category="opl">
+			<ref name="zoomodulo.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoocpomodulo" category="opl">
+			<ref name="zoocpomodulo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
