@@ -201,6 +201,10 @@
 			<ref name="zoocpodomain.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zootuplesetfunctions" category="opl">
+			<ref name="zootuplesetfunctions.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
