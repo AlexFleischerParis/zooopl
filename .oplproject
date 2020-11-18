@@ -205,6 +205,10 @@
 			<ref name="zootuplesetfunctions.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zootuplesetfromscriptingobjects" category="opl">
+			<ref name="zootuplesetfromscriptingobjects.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
