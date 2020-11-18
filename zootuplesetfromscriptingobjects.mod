@@ -34,10 +34,17 @@ execute
   busArray[2].nbSeats=30;
   busArray[2].cost=400;
   
+  // process property will now be a function
   for(var i=1;i<=2;i++) busArray[i].process=processBus;
   
   // This line will add the buses that are in scripting objects into OPL tuple set
   for(var i=1;i<=2;i++) busArray[i].process();
+  
+  // process property will now on be a value
+  for(var i=1;i<=2;i++) busArray[i].process=i;
+  for(var i=1;i<=2;i++) writeln("busArray[",i,"].process=",busArray[i].process);
+  
+  
 }
 
 // asserts help make sure data is fine
@@ -67,6 +74,8 @@ execute
 
 which gives
 
+busArray[1].process=1
+busArray[2].process=2
 {<40 500> <30 400>}
 [6 2]
 
