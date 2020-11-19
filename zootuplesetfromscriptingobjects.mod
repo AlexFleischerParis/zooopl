@@ -41,6 +41,7 @@ execute
   for(var i=1;i<=2;i++) busArray[i].process();
   
   // process property will now on be a value
+  writeln("busArray was a function array now it s a value array")
   for(var i=1;i<=2;i++) busArray[i].process=i;
   for(var i=1;i<=2;i++) writeln("busArray[",i,"].process=",busArray[i].process);
   
@@ -74,10 +75,13 @@ execute
 
 which gives
 
+busArray was a function array now it s a value array
 busArray[1].process=1
 busArray[2].process=2
-{<40 500> <30 400>}
-[6 2]
+// solution (optimal) with objective 3800
+ {<40 500> <30 400>}
+ [6 2]
+
 
 */
 
