@@ -209,6 +209,18 @@
 			<ref name="zootuplesetfromscriptingobjects.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooarrayvariableindexerunion" category="opl">
+			<ref name="zooarrayvariableindexerunion.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zooarrayvariableindexertupleset" category="opl">
+			<ref name="zooarrayvariableindexertupleset.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zooarrayvariableindexerdexpr" category="opl">
+			<ref name="zooarrayvariableindexerdexpr.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
