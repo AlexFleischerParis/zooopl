@@ -221,6 +221,10 @@
 			<ref name="zooarrayvariableindexerdexpr.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooquadratic" category="opl">
+			<ref name="zooquadratic.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
