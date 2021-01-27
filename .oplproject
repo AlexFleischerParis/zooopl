@@ -225,6 +225,10 @@
 			<ref name="zooquadratic.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoogetandsetcoef" category="opl">
+			<ref name="zoogetandsetcoef.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
