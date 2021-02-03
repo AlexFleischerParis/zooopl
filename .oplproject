@@ -229,6 +229,14 @@
 			<ref name="zoogetandsetcoef.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooexportmodel" category="opl">
+			<ref name="zooexportmodel.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zooimportmodel" category="opl">
+			<ref name="zooimportmodel.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
