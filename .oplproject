@@ -237,6 +237,10 @@
 			<ref name="zooimportmodel.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoohardandsoftconstraints" category="opl">
+			<ref name="zoohardandsoftconstraints.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
