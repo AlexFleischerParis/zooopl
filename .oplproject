@@ -241,6 +241,10 @@
 			<ref name="zoohardandsoftconstraints.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoorange" category="opl">
+			<ref name="zoorange.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
