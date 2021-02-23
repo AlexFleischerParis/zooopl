@@ -245,6 +245,10 @@
 			<ref name="zoorange.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooalldiffcpo" category="opl">
+			<ref name="zooaldiffcpo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
