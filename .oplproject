@@ -249,6 +249,12 @@
 			<ref name="zooaldiffcpo.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoocsv" category="opl">
+			<ref name="zoocsv.mod" type="model">
+			</ref>
+			<ref name="zoocsv.dat" type="data">
+			</ref>
+		</config>
 	</configs>
 	
 </project>

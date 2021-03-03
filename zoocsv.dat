@@ -1,0 +1,28 @@
+/*
+
+the csv file is
+
+nbseats;cost;
+40;500;
+30;400;
+
+*/
+
+nbKids=300;
+
+// New feature in CPLEX 20.10
+
+CSVConnection csvinput("zoobusesinput.csv?firstIsHeader=true", "");
+buses from CSVRead(csvinput, "");
+
+CSVConnection csvoutput("zoobusesoutput.csv?outputOnly=true&append=false&outputSeparator=;", "");
+result to CSVPublish(csvoutput, "");
+
+/*
+
+and the output file
+
+40;6
+30;2
+
+*/
