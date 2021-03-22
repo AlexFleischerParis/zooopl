@@ -255,6 +255,10 @@
 			<ref name="zoocsv.dat" type="data">
 			</ref>
 		</config>
+		<config default="false" name="zooscheduling" category="opl">
+			<ref name="zooscheduling.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
