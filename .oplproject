@@ -259,6 +259,10 @@
 			<ref name="zooscheduling.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoononlinear" category="opl">
+			<ref name="zoononlinear.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
