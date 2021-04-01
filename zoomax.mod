@@ -11,6 +11,8 @@
          
     subject to
     {
+     // logical constraint
+     // maxNbOfBusesGivenSize is the max of all nbBus
      maxNbOfBusesGivenSize==max(i in buses) nbBus[i];
      sum(i in buses) i*nbBus[i]>=nbKids;
     }
