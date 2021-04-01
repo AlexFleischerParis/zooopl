@@ -17,3 +17,12 @@ subject to
 {
  40*nbBus40+nbBus30*30>=nbKids;
 } 
+
+/*
+
+gives
+
+nbBus40 = 4;
+nbBus30 = 5;
+
+*/

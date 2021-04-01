@@ -263,6 +263,10 @@
 			<ref name="zoononlinear.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoomax" category="opl">
+			<ref name="zoomax.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
