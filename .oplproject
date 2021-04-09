@@ -271,6 +271,10 @@
 			<ref name="zooenumeratewithoutsolutionpool.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoosemiinteger" category="opl">
+			<ref name="zoosemiinteger.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
