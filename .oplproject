@@ -267,6 +267,10 @@
 			<ref name="zoomax.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooenumeratewithoutsolutionpool" category="opl">
+			<ref name="zooenumeratewithoutsolutionpool.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
