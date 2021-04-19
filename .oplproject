@@ -275,6 +275,14 @@
 			<ref name="zoosemiinteger.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoocountvalues" category="opl">
+			<ref name="zoocountvalues.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoocpocountvalues" category="opl">
+			<ref name="zoocpocountvalues.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
