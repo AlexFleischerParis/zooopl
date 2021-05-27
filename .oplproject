@@ -283,6 +283,14 @@
 			<ref name="zoocpocountvalues.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoopriorities" category="opl">
+			<ref name="zoopriorities.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zooprioritiescpo" category="opl">
+			<ref name="zooprioritiescpo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
