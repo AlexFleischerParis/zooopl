@@ -291,6 +291,10 @@
 			<ref name="zooprioritiescpo.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoomaxl" category="opl">
+			<ref name="zoomaxl.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
