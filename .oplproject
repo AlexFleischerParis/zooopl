@@ -295,6 +295,14 @@
 			<ref name="zoomaxl.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoogetsolutiononebyone" category="opl">
+			<ref name="zoogetsolutiononebyone.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoogetsolutiononebyone2" category="opl">
+			<ref name="zoogetsolutiononebyone2.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
