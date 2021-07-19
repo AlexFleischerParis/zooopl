@@ -303,6 +303,10 @@
 			<ref name="zoogetsolutiononebyone2.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoopreassign" category="opl">
+			<ref name="zoopreassign.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
