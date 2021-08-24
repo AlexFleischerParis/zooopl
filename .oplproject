@@ -307,6 +307,10 @@
 			<ref name="zoopreassign.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooallandany" category="opl">
+			<ref name="zooallandany.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
