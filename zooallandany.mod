@@ -27,6 +27,6 @@ assert or(s in sizes)  (nbBus[s]==1);
 
 which gives
 
-nbBus = [2 4];
+nbBus = [5 1];
          
          */

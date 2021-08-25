@@ -311,6 +311,10 @@
 			<ref name="zooallandany.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoomultiobjectivewithsettings" category="opl">
+			<ref name="zoomultiobjectivewithsettings.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
