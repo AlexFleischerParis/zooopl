@@ -315,6 +315,10 @@
 			<ref name="zoomultiobjectivewithsettings.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooabs" category="opl">
+			<ref name="zooabs.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
