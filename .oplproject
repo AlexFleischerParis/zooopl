@@ -319,6 +319,10 @@
 			<ref name="zooabs.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoolazy" category="opl">
+			<ref name="zoolazy.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
