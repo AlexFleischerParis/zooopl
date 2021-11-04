@@ -323,6 +323,10 @@
 			<ref name="zoolazy.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zootablefunction" category="opl">
+			<ref name="zootablefunction.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
