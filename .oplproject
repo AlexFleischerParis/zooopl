@@ -331,6 +331,10 @@
 			<ref name="zoocheckfeasibility.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoocheckfeasibilitywithassert" category="opl">
+			<ref name="zoocheckfeasibilitywithassert.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
