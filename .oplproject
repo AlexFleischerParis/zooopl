@@ -327,6 +327,10 @@
 			<ref name="zootablefunction.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoocheckfeasibility" category="opl">
+			<ref name="zoocheckfeasibility.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
