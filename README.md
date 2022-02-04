@@ -2,4 +2,4 @@
 
 Making decision optimization simple
 
-Examples from https://www.linkedin.com/pulse/how-opl-alex-fleischer/
+Examples from https://www.linkedin.com/pulse/making-decision-optimization-simple-alex-fleischer/
