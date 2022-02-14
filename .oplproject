@@ -335,6 +335,10 @@
 			<ref name="zoocheckfeasibilitywithassert.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zooifthenwithstaticcondition" category="opl">
+			<ref name="zooifthenwithstaticcondition.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
