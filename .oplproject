@@ -339,6 +339,10 @@
 			<ref name="zooifthenwithstaticcondition.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoowritesolutioninafile" category="opl">
+			<ref name="writesolutioninafile.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
