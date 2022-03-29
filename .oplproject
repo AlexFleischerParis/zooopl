@@ -343,6 +343,14 @@
 			<ref name="writesolutioninafile.mod" type="model">
 			</ref>
 		</config>
+		<config default="false" name="zoosolution" category="opl">
+			<ref name="zoosolution.mod" type="model">
+			</ref>
+		</config>
+		<config default="false" name="zoosolutioncpo" category="opl">
+			<ref name="zoosolutioncpo.mod" type="model">
+			</ref>
+		</config>
 	</configs>
 	
 </project>
