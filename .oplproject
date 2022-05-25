@@ -1,356 +1,624 @@
 <?xml version="1.0" encoding="ASCII"?><project>
-	<version>1.0</version>
-	<configs>
-		<config default="true" name="zookpicpo" category="opl">
-			<ref name="zookpicpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoo" category="opl">
-			<ref name="zoo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoodat" category="opl">
-			<ref name="zoodat.dat" type="data">
-			</ref>
-			<ref name="zoodat.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooarraysandsets" category="opl">
-			<ref name="zooarraysandsets.mod" type="model">
-			</ref>
-			<ref name="zooarraysandsets.dat" type="data">
-			</ref>
-		</config>
-		<config default="false" name="zoosetting1" category="opl">
-			<ref name="zoosetting1.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoosetting2" category="opl">
-			<ref name="zoosetting2.mod" type="model">
-			</ref>
-			<ref name="zoo.ops" type="setting">
-			</ref>
-		</config>
-		<config default="false" name="zoosetting3" category="opl">
-			<ref name="zoosetting3.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zootuplesetandassert" category="opl">
-			<ref name="zootuplesetandassert.dat" type="data">
-			</ref>
-			<ref name="zootuplesetandassert.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooforallandslicing" category="opl">
-			<ref name="zooforallandslicing.dat" type="data">
-			</ref>
-			<ref name="zooforallandslicing.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooexcel" category="opl">
-			<ref name="zooexcel.dat" type="data">
-			</ref>
-			<ref name="zooexcel.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocpo" category="opl">
-			<ref name="zoocpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoodecimalcpo" category="opl">
-			<ref name="zoodecimalcpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooprepostprocessing" category="opl">
-			<ref name="zooprepostprocessing.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooflowcontrolincremental" category="opl">
-			<ref name="zooflowcontrolincremental.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooflowcontrolregenerate" category="opl">
-			<ref name="zooflowcontrolregenerate.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoological" category="opl">
-			<ref name="zoological.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoodisjunction" category="opl">
-			<ref name="zoodisjunction.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooifthen" category="opl">
-			<ref name="zooifthen.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooconflictandrelaxation" category="opl">
-			<ref name="zooconflictandrelaxation.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoorelaxinteger" category="opl">
-			<ref name="zoorelaxinteger.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoosimulation" category="opl">
-			<ref name="zoosimulation.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoopiecewise" category="opl">
-			<ref name="zoopiecewise.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomontecarlosimulation" category="opl">
-			<ref name="zoomontecarlosimulation.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomontecarlooptimization" category="opl">
-			<ref name="zoomontecarlooptimization.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoostochastic" category="opl">
-			<ref name="zoostochastic.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoorobust" category="opl">
-			<ref name="zoorobust.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooseveral" category="opl">
-			<ref name="zooseveral.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomodelingandscripting" category="opl">
-			<ref name="zoomodelingandscripting.mod" type="model">
-			</ref>
-			<ref name="zoomodelingandscripting.dat" type="data">
-			</ref>
-		</config>
-		<config default="false" name="zoowriteMST" category="opl">
-			<ref name="zoowriteMST.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooreadMST" category="opl">
-			<ref name="zooreadMST.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoowarmstartAPI" category="opl">
-			<ref name="zoowarmstartapi.mod" type="model">
-			</ref>
-			<ref name="zoowarmstartapi.dat" type="data">
-			</ref>
-		</config>
-		<config default="false" name="zoowarmstartapicpo" category="opl">
-			<ref name="zoowarmstartapicpo.mod" type="model">
-			</ref>
-			<ref name="zoowarmstartapi.dat" type="data">
-			</ref>
-		</config>
-		<config default="false" name="zooincremental" category="opl">
-			<ref name="zooincremental.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomultiobjective" category="opl">
-			<ref name="zoomultiobjective.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooseveraldat" category="opl">
-			<ref name="zooseveraldat.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooseveralcpo" category="opl">
-			<ref name="zooseveralcpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooexcelnamedrange" category="opl">
-			<ref name="zooexcelnamedrange.dat" type="data">
-			</ref>
-			<ref name="zooexcel.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocounttrueconstraints" category="opl">
-			<ref name="zoocounttrueconstraints.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoogetcplexinfo" category="opl">
-			<ref name="zoogetcplexinfo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoofixedstart" category="opl">
-			<ref name="zoofixedstart.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoofixedstartcpo" category="opl">
-			<ref name="zoofixedstartcpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomodulo" category="opl">
-			<ref name="zoomodulo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocpomodulo" category="opl">
-			<ref name="zoocpomodulo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoodomain" category="opl">
-			<ref name="zoodomain.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocpodomain" category="opl">
-			<ref name="zoocpodomain.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zootuplesetfunctions" category="opl">
-			<ref name="zootuplesetfunctions.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zootuplesetfromscriptingobjects" category="opl">
-			<ref name="zootuplesetfromscriptingobjects.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooarrayvariableindexerunion" category="opl">
-			<ref name="zooarrayvariableindexerunion.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooarrayvariableindexertupleset" category="opl">
-			<ref name="zooarrayvariableindexertupleset.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooarrayvariableindexerdexpr" category="opl">
-			<ref name="zooarrayvariableindexerdexpr.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooquadratic" category="opl">
-			<ref name="zooquadratic.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoogetandsetcoef" category="opl">
-			<ref name="zoogetandsetcoef.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooexportmodel" category="opl">
-			<ref name="zooexportmodel.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooimportmodel" category="opl">
-			<ref name="zooimportmodel.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoohardandsoftconstraints" category="opl">
-			<ref name="zoohardandsoftconstraints.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoorange" category="opl">
-			<ref name="zoorange.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooalldiffcpo" category="opl">
-			<ref name="zooaldiffcpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocsv" category="opl">
-			<ref name="zoocsv.mod" type="model">
-			</ref>
-			<ref name="zoocsv.dat" type="data">
-			</ref>
-		</config>
-		<config default="false" name="zooscheduling" category="opl">
-			<ref name="zooscheduling.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoononlinear" category="opl">
-			<ref name="zoononlinear.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomax" category="opl">
-			<ref name="zoomax.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooenumeratewithoutsolutionpool" category="opl">
-			<ref name="zooenumeratewithoutsolutionpool.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoosemiinteger" category="opl">
-			<ref name="zoosemiinteger.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocountvalues" category="opl">
-			<ref name="zoocountvalues.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocpocountvalues" category="opl">
-			<ref name="zoocpocountvalues.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoopriorities" category="opl">
-			<ref name="zoopriorities.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooprioritiescpo" category="opl">
-			<ref name="zooprioritiescpo.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomaxl" category="opl">
-			<ref name="zoomaxl.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoogetsolutiononebyone" category="opl">
-			<ref name="zoogetsolutiononebyone.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoogetsolutiononebyone2" category="opl">
-			<ref name="zoogetsolutiononebyone2.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoopreassign" category="opl">
-			<ref name="zoopreassign.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooallandany" category="opl">
-			<ref name="zooallandany.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoomultiobjectivewithsettings" category="opl">
-			<ref name="zoomultiobjectivewithsettings.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooabs" category="opl">
-			<ref name="zooabs.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoolazy" category="opl">
-			<ref name="zoolazy.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zootablefunction" category="opl">
-			<ref name="zootablefunction.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocheckfeasibility" category="opl">
-			<ref name="zoocheckfeasibility.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoocheckfeasibilitywithassert" category="opl">
-			<ref name="zoocheckfeasibilitywithassert.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zooifthenwithstaticcondition" category="opl">
-			<ref name="zooifthenwithstaticcondition.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoowritesolutioninafile" category="opl">
-			<ref name="writesolutioninafile.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoosolution" category="opl">
-			<ref name="zoosolution.mod" type="model">
-			</ref>
-		</config>
-		<config default="false" name="zoosolutioncpo" category="opl">
-			<ref name="zoosolutioncpo.mod" type="model">
-			</ref>
-		</config>
-	</configs>
-	
+    	
+    <version>1.0</version>
+    	
+    <configs>
+        		
+        <config default="true" name="zookpicpo" category="opl">
+            			
+            <ref name="zookpicpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoo" category="opl">
+            			
+            <ref name="zoo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoodat" category="opl">
+            			
+            <ref name="zoodat.dat" type="data">
+			</ref>
+            			
+            <ref name="zoodat.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooarraysandsets" category="opl">
+            			
+            <ref name="zooarraysandsets.mod" type="model">
+			</ref>
+            			
+            <ref name="zooarraysandsets.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosetting1" category="opl">
+            			
+            <ref name="zoosetting1.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosetting2" category="opl">
+            			
+            <ref name="zoosetting2.mod" type="model">
+			</ref>
+            			
+            <ref name="zoo.ops" type="setting">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosetting3" category="opl">
+            			
+            <ref name="zoosetting3.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zootuplesetandassert" category="opl">
+            			
+            <ref name="zootuplesetandassert.dat" type="data">
+			</ref>
+            			
+            <ref name="zootuplesetandassert.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooforallandslicing" category="opl">
+            			
+            <ref name="zooforallandslicing.dat" type="data">
+			</ref>
+            			
+            <ref name="zooforallandslicing.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooexcel" category="opl">
+            			
+            <ref name="zooexcel.dat" type="data">
+			</ref>
+            			
+            <ref name="zooexcel.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocpo" category="opl">
+            			
+            <ref name="zoocpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoodecimalcpo" category="opl">
+            			
+            <ref name="zoodecimalcpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooprepostprocessing" category="opl">
+            			
+            <ref name="zooprepostprocessing.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooflowcontrolincremental" category="opl">
+            			
+            <ref name="zooflowcontrolincremental.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooflowcontrolregenerate" category="opl">
+            			
+            <ref name="zooflowcontrolregenerate.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoological" category="opl">
+            			
+            <ref name="zoological.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoodisjunction" category="opl">
+            			
+            <ref name="zoodisjunction.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooifthen" category="opl">
+            			
+            <ref name="zooifthen.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooconflictandrelaxation" category="opl">
+            			
+            <ref name="zooconflictandrelaxation.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoorelaxinteger" category="opl">
+            			
+            <ref name="zoorelaxinteger.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosimulation" category="opl">
+            			
+            <ref name="zoosimulation.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoopiecewise" category="opl">
+            			
+            <ref name="zoopiecewise.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomontecarlosimulation" category="opl">
+            			
+            <ref name="zoomontecarlosimulation.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomontecarlooptimization" category="opl">
+            			
+            <ref name="zoomontecarlooptimization.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoostochastic" category="opl">
+            			
+            <ref name="zoostochastic.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoorobust" category="opl">
+            			
+            <ref name="zoorobust.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooseveral" category="opl">
+            			
+            <ref name="zooseveral.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomodelingandscripting" category="opl">
+            			
+            <ref name="zoomodelingandscripting.mod" type="model">
+			</ref>
+            			
+            <ref name="zoomodelingandscripting.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoowriteMST" category="opl">
+            			
+            <ref name="zoowriteMST.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooreadMST" category="opl">
+            			
+            <ref name="zooreadMST.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoowarmstartAPI" category="opl">
+            			
+            <ref name="zoowarmstartapi.mod" type="model">
+			</ref>
+            			
+            <ref name="zoowarmstartapi.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoowarmstartapicpo" category="opl">
+            			
+            <ref name="zoowarmstartapicpo.mod" type="model">
+			</ref>
+            			
+            <ref name="zoowarmstartapi.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooincremental" category="opl">
+            			
+            <ref name="zooincremental.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomultiobjective" category="opl">
+            			
+            <ref name="zoomultiobjective.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooseveraldat" category="opl">
+            			
+            <ref name="zooseveraldat.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooseveralcpo" category="opl">
+            			
+            <ref name="zooseveralcpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooexcelnamedrange" category="opl">
+            			
+            <ref name="zooexcelnamedrange.dat" type="data">
+			</ref>
+            			
+            <ref name="zooexcel.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocounttrueconstraints" category="opl">
+            			
+            <ref name="zoocounttrueconstraints.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoogetcplexinfo" category="opl">
+            			
+            <ref name="zoogetcplexinfo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoofixedstart" category="opl">
+            			
+            <ref name="zoofixedstart.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoofixedstartcpo" category="opl">
+            			
+            <ref name="zoofixedstartcpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomodulo" category="opl">
+            			
+            <ref name="zoomodulo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocpomodulo" category="opl">
+            			
+            <ref name="zoocpomodulo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoodomain" category="opl">
+            			
+            <ref name="zoodomain.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocpodomain" category="opl">
+            			
+            <ref name="zoocpodomain.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zootuplesetfunctions" category="opl">
+            			
+            <ref name="zootuplesetfunctions.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zootuplesetfromscriptingobjects" category="opl">
+            			
+            <ref name="zootuplesetfromscriptingobjects.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooarrayvariableindexerunion" category="opl">
+            			
+            <ref name="zooarrayvariableindexerunion.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooarrayvariableindexertupleset" category="opl">
+            			
+            <ref name="zooarrayvariableindexertupleset.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooarrayvariableindexerdexpr" category="opl">
+            			
+            <ref name="zooarrayvariableindexerdexpr.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooquadratic" category="opl">
+            			
+            <ref name="zooquadratic.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoogetandsetcoef" category="opl">
+            			
+            <ref name="zoogetandsetcoef.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooexportmodel" category="opl">
+            			
+            <ref name="zooexportmodel.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooimportmodel" category="opl">
+            			
+            <ref name="zooimportmodel.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoohardandsoftconstraints" category="opl">
+            			
+            <ref name="zoohardandsoftconstraints.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoorange" category="opl">
+            			
+            <ref name="zoorange.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooalldiffcpo" category="opl">
+            			
+            <ref name="zooaldiffcpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocsv" category="opl">
+            			
+            <ref name="zoocsv.mod" type="model">
+			</ref>
+            			
+            <ref name="zoocsv.dat" type="data">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooscheduling" category="opl">
+            			
+            <ref name="zooscheduling.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoononlinear" category="opl">
+            			
+            <ref name="zoononlinear.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomax" category="opl">
+            			
+            <ref name="zoomax.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooenumeratewithoutsolutionpool" category="opl">
+            			
+            <ref name="zooenumeratewithoutsolutionpool.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosemiinteger" category="opl">
+            			
+            <ref name="zoosemiinteger.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocountvalues" category="opl">
+            			
+            <ref name="zoocountvalues.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocpocountvalues" category="opl">
+            			
+            <ref name="zoocpocountvalues.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoopriorities" category="opl">
+            			
+            <ref name="zoopriorities.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooprioritiescpo" category="opl">
+            			
+            <ref name="zooprioritiescpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomaxl" category="opl">
+            			
+            <ref name="zoomaxl.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoogetsolutiononebyone" category="opl">
+            			
+            <ref name="zoogetsolutiononebyone.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoogetsolutiononebyone2" category="opl">
+            			
+            <ref name="zoogetsolutiononebyone2.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoopreassign" category="opl">
+            			
+            <ref name="zoopreassign.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooallandany" category="opl">
+            			
+            <ref name="zooallandany.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoomultiobjectivewithsettings" category="opl">
+            			
+            <ref name="zoomultiobjectivewithsettings.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooabs" category="opl">
+            			
+            <ref name="zooabs.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoolazy" category="opl">
+            			
+            <ref name="zoolazy.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zootablefunction" category="opl">
+            			
+            <ref name="zootablefunction.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocheckfeasibility" category="opl">
+            			
+            <ref name="zoocheckfeasibility.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocheckfeasibilitywithassert" category="opl">
+            			
+            <ref name="zoocheckfeasibilitywithassert.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooifthenwithstaticcondition" category="opl">
+            			
+            <ref name="zooifthenwithstaticcondition.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoowritesolutioninafile" category="opl">
+            			
+            <ref name="writesolutioninafile.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosolution" category="opl">
+            			
+            <ref name="zoosolution.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoosolutioncpo" category="opl">
+            			
+            <ref name="zoosolutioncpo.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zooexportmodelwithoutmain" category="opl">
+            			
+            <ref name="zooexportmodelwithoutmain.mod" type="model">
+			</ref>
+            		
+        </config>
+        	
+    </configs>
+    	
+
 </project>
