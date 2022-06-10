@@ -617,6 +617,16 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zooscenariiindat" category="opl">
+            			
+            <ref name="zooscenariiindat.mod" type="model">
+			</ref>
+            			
+            <ref name="zooscenariiindat.dat" type="data">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
