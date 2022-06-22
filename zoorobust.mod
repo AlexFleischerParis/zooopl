@@ -61,12 +61,12 @@ And then with alpha=80% we can write
     float costBus40=500;
     float costBus30=400;
 
-    int alpha=80; // We want the constraint to be ok with probability 0.95
+    int alpha=80; // We want the constraint to be ok with probability 0.80
 
     // number of buses booked in advance
     dvar int+ nbBus40;
     dvar int+ nbBus30;
-    // number of buses booked at the last minute which is far more expensive
+    
 
      
     minimize
