@@ -63,7 +63,7 @@ And then with alpha=80% we can write
 
     int alpha=80; // We want the constraint to be ok with probability 0.80
 
-    // number of buses booked in advance
+    
     dvar int+ nbBus40;
     dvar int+ nbBus30;
     
