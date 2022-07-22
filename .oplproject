@@ -627,6 +627,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zooifthencontinuous" category="opl">
+            			
+            <ref name="zooifthencontinuous.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
