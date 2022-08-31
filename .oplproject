@@ -634,6 +634,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoosolvefixed" category="opl">
+            			
+            <ref name="zoosolvefixed.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
