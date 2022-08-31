@@ -1,3 +1,17 @@
+/*
+
+Shadow price or dual price is the improvement in the contribution or costs by having 
+one additional unit of a  resource which is causing a bottleneck.
+
+In linear programming, reduced cost, or opportunity cost, is the amount by which 
+an objective function coefficient would have to improve (so increase 
+for maximization problem, decrease for minimization problem) before it
+ would be possible for a corresponding variable to assume a positive value in 
+ the optimal solution. (Wikipedia)
+ 
+ */ 
+ 
+ 
     int nbKids=300;
     float costBus40=500;
     float costBus30=400;
@@ -53,12 +67,10 @@
     }
     
     
-/*
-
 Initial Model
-OBJECTIVE: 3766.666666667
+7.5 buses 40 seats and 0 buses 30 seats
+OBJECTIVE: 3750
 solveFixed
-OBJECTIVE: 3766.666666667
-dual of the kids constraint = 13.333333333
-
-*/
+OBJECTIVE: 3750
+dual of the kids constraint = 12.5
+reduced cost of nbBus30 = 25
