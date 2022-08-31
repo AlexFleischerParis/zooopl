@@ -37,14 +37,15 @@ for maximization problem, decrease for minimization problem) before it
         
       }
       
+      
       /*
       
-      var solbus40=thisOplModel.nbBus40.solutionValue;
+      var solbus30=thisOplModel.nbBus30.solutionValue;
       
       // relax integrity constraint
       thisOplModel.convertAllIntVars();
-      thisOplModel.nbBus40.UB=solbus40;
-      thisOplModel.nbBus40.LB=solbus40;
+      thisOplModel.nbBus30.UB=solbus30;
+      thisOplModel.nbBus30.LB=solbus30;
       
       
       if (cplex.solve()) {
@@ -52,6 +53,7 @@ for maximization problem, decrease for minimization problem) before it
         writeln("OBJECTIVE: ",cplex.getObjValue());  
         
         writeln("dual of the kids constraint = ",thisOplModel.ctKids.dual);
+        writeln("reduced cost of nbbus30 = ",thisOplModel.nbBus30.reducedCost);
       }
       
       */
@@ -66,7 +68,7 @@ for maximization problem, decrease for minimization problem) before it
      
     }
     
-    
+/*   
 Initial Model
 7.5 buses 40 seats and 0 buses 30 seats
 OBJECTIVE: 3750
@@ -74,3 +76,5 @@ solveFixed
 OBJECTIVE: 3750
 dual of the kids constraint = 12.5
 reduced cost of nbBus30 = 25
+
+*/
