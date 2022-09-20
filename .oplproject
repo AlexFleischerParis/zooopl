@@ -641,6 +641,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoosos1" category="opl">
+            			
+            <ref name="zoosos1.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
