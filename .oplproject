@@ -648,6 +648,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoorelaxoneintegervariable" category="opl">
+            			
+            <ref name="zoorelaxoneintegervariable.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
