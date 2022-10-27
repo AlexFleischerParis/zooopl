@@ -34,6 +34,8 @@
         writeln("OBJECTIVE: ",cplex.getObjValue());  
         
         writeln("dual of the kids constraint = ",thisOplModel.ctKids.dual);
+        writeln("reduced costs for nbbus40 : ",thisOplModel.nbBus40.reducedCost);
+        writeln("reduced costs for nbbus30 : ",thisOplModel.nbBus30.reducedCost);
       }
        
      
@@ -50,9 +52,12 @@ gives
     Relaxed Model
     OBJECTIVE: 3750
     dual of the kids constraint = 12.5
+    reduced costs for nbbus40 : 0
+    reduced costs for nbbus30 : 25
 
  
 
 And we can confirm that if we use only 40 seats buses the marginal cost of a seat within a 40 seats bus is costbus40/40=12.5
+And that if we remove 25 to the price for 30 seats buses then they are as cheap as 40 seats buses.
 
 */
