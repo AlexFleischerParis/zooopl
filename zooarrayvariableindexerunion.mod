@@ -30,18 +30,21 @@ tuple busscenario
 {busscenario} busscenarii={<40,1,500>,<30,1,400>,<30,2,410>,<35,2,440>,<40,2,520>}; 
 
 {int} scenarii={i.scenario | i in busscenarii};
+{int} unionOfAllBusSizes={s.nbSeats| s in busscenarii};
 
 // decision variable array with variable size
-dvar int+ nbBus[busscenarii];
+dvar int+ nbBus[sc in scenarii][b in unionOfAllBusSizes];
 
 // objective
 minimize
-     1/card(scenarii)*sum(sc in scenarii,b in busscenarii:b.scenario==sc) b.cost*nbBus[b];
+     1/card(scenarii)*sum(sc in scenarii) sum(bsc in busscenarii:bsc.scenario==sc) 
+     bsc.cost*nbBus[sc][bsc.nbSeats];
      
 // constraints
 subject to
 {
-   forall(sc in scenarii) sum(b in busscenarii:b.scenario==sc) b.nbSeats*nbBus[b]>=nbKids;
+   forall(sc in scenarii) sum(bsc in busscenarii:bsc.scenario==sc) 
+     bsc.nbSeats*nbBus[sc][bsc.nbSeats]>=nbKids;
 }
 
 execute
@@ -49,7 +52,7 @@ execute
   for(sc in scenarii)
   {
     writeln("scenario ",sc);
-    for(var b in busscenarii) if (b.scenario==sc) writeln(nbBus[b]," buses ",b.nbSeats," seats" );
+    for(var b in busscenarii) if (b.scenario==sc) writeln(nbBus[sc][b.nbSeats]," buses ",b.nbSeats," seats" );
     writeln();
   }
 }
