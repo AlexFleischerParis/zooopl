@@ -655,6 +655,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoocpomultiobjective" category="opl">
+            			
+            <ref name="zoocpomultiobjective.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
