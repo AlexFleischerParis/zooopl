@@ -662,6 +662,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoogap" category="opl">
+            			
+            <ref name="zoogap.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
