@@ -669,6 +669,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoomultiobjectiveweightedsum" category="opl">
+            			
+            <ref name="zoomultiobjectiveweightedsum.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
