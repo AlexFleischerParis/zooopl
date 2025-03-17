@@ -4,14 +4,14 @@
     	
     <configs>
         		
-        <config default="true" name="zookpicpo" category="opl">
+        <config default="false" name="zookpicpo" category="opl">
             			
             <ref name="zookpicpo.mod" type="model">
 			</ref>
             		
         </config>
         		
-        <config default="false" name="zoo" category="opl">
+        <config default="true" name="zoo" category="opl">
             			
             <ref name="zoo.mod" type="model">
 			</ref>
@@ -673,6 +673,13 @@
         <config default="false" name="zoomultiobjectiveweightedsum" category="opl">
             			
             <ref name="zoomultiobjectiveweightedsum.mod" type="model">
+			</ref>
+            		
+        </config>
+        		
+        <config default="false" name="zoocpoconflict" category="opl">
+            			
+            <ref name="zoocpoconflict.mod" type="model">
 			</ref>
             		
         </config>
