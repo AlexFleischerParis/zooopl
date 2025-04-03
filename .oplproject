@@ -683,6 +683,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zoocpoexportmodel" category="opl">
+            			
+            <ref name="zoocpoexportmodel.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
