@@ -690,6 +690,13 @@
 			</ref>
             		
         </config>
+        		
+        <config default="false" name="zooincrementalcpo" category="opl">
+            			
+            <ref name="zooincrementalcpo.mod" type="model">
+			</ref>
+            		
+        </config>
         	
     </configs>
     	
